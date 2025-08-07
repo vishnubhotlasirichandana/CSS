@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.box{
+    background-color: rebeccapurple;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.box:hover{
+   /* animation-name: rotate;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;*/
+    animation: rotate 0.25s infinite reverse;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+        background-color: rebeccapurple;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: rgb(45, 223, 233);
+    }
+}
