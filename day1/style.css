@@ -1,3 +1,35 @@
-body {
-  background-color: #f0f0f0;
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    text-decoration: blue wavy underline;
+    text-transform: capitalize;
+}
+#outer {
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+#logo{
+    font-size: 25px;
+    color: #f08804;
+    margin-right: 200px;
+}
+button{
+    background-color: #f08804;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
 }

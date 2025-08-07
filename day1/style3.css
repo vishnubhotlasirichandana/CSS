@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    background-image: url("water.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px dashed black;
+    display: inline-block;
+}
+#box1{
+    background-color: rgb(246, 126, 126);
+}
+#box2{
+    background-color: rgb(240, 154, 62);
+}
+#box3{
+    background-color: rgb(146, 237, 127);
+}
+#box4{
+    background-color: rgb(177, 145, 238);
+}
